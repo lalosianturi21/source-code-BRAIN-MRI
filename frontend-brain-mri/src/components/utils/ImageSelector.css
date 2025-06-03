@@ -1,0 +1,116 @@
+/* General styles */
+.image-selector {
+    max-width: 600px; /* Set a max-width to prevent the container from being too wide */
+    margin: 0 auto; /* Center the component horizontally */
+    padding: 20px; /* Add some padding for spacing */
+    border-radius: 10px; /* Rounded corners for a softer look */
+    background-color: transparent; /* Light background color */
+    border: 3px solid var(--link-color) !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  }
+  
+  .toggle-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .toggle-button {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    background-color: var(--link-color) !important;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+  }
+  
+  .toggle-button:hover {
+    background-color: #428888;
+  }
+  
+  .camera-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .webcam {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .capture-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .capture-button:hover {
+    background-color: #218838;
+  }
+  
+  .file-upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .file-upload-input {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    border: 2px solid var(--link-color) !important;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    max-width: 90%;
+    transition: border-color 0.3s ease;
+  }
+  
+  .file-upload-input:hover {
+    border-color: #4A6967;
+  }
+  
+  .file-upload-input:focus {
+    outline: none;
+    border-color: #4A6967;
+  }
+  
+  .file-upload-container p {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  input[type=file]::file-selector-button {
+    background-color: var(--link-color) !important;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+    border-right: 1px solid #e5e5e5;
+    padding: 10px 15px;
+    margin-right: 20px;
+    transition: .5s;
+  }
+  
+  input[type=file]::file-selector-button:hover {
+    background-color: #4A6967;
+    border: 0px;
+    border-right: 1px solid white;
+  }
+
+  .text-error {
+    text-align: center;
+  }
