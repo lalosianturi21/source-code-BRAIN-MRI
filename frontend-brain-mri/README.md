@@ -1,75 +1,141 @@
 <h1 align="center">
-  Brain MRI
+  Brain MRI Classification
   <img src="https://github.com/user-attachments/assets/7a3acb92-413a-42dd-b9e5-55a59dc6bd60" alt="Brain MRI Logo" width="60" />
 </h1>
 
 ---
 
-> **Description**: This web application helps identify brain MRI abnormalities using artificial intelligence powered by a Hybrid Vision Transformer combined with ResNet50.
+> **Description**: This web application leverages artificial intelligence to classify brain MRI scans into four categories: Meningioma, Pituitary, Glioma, and Healthy. It aims to assist medical professionals in early diagnosis and treatment planning.
 
 ---
 
-## 🚀 Getting Started with Brain MRI (React JS)
+## 🚀 Features
 
-This guide will help you set up and run the **Brain MRI** project on your local development environment using **React JS**.
+- **Image Classification**: Upload MRI images for classification into predefined categories.
+- **Camera Integration**: Capture images directly using a webcam for real-time classification.
+- **Detailed Results**: View classification results with accuracy, description, and suggested solutions.
+- **Responsive Design**: Optimized for both desktop and mobile devices.
 
 ---
 
-## ✅ Step-by-Step Guide to Run the Project
+## ✅ Getting Started
 
-### 📦 Step 1: Install Dependencies
+### 📦 Prerequisites
 
-Go to the root directory of the project and install dependencies:
+Ensure you have the following installed:
 
-```bash
-# with npm
-npm install
+- **Node.js** (v16 or higher)
+- **npm** or **yarn**
 
-# OR with yarn
-yarn install
-```
+### 🛠️ Installation
 
-### 🛠️ Step 2: Start the Development Server
+1. Clone the repository:
 
-Start the React development server:
+   ```bash
+   git clone https://github.com/your-repo/brain-mri.git
+   cd frontend-brain-mri
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   # using npm
+   npm install
+
+   # OR using yarn
+   yarn install
+   ```
+
+### 🚀 Running the Project
+
+Start the development server:
 
 ```bash
 # using npm
 npm start
 
-# OR using Yarn
+# OR using yarn
 yarn start
 ```
 
-## Congratulations! :tada:
+The application will be available at `http://localhost:3000`.
 
-You've successfully run and modified your React JS Brain MRI web app. 🧠🖥️
+---
 
+## 🧠 Project Structure
 
-## 🚀 Preview
+```
+frontend-brain-mri/
+├── public/               # Static files (HTML, images, etc.)
+├── src/                  # Source code
+│   ├── components/       # Reusable components
+│   ├── pages/            # Application pages
+│   ├── data/             # Static data (SEO, user info, etc.)
+│   ├── styles/           # Global styles
+│   ├── utils/            # Utility functions
+│   └── App.js            # Main application entry point
+├── package.json          # Project dependencies and scripts
+├── README.md             # Project documentation
+└── .gitignore            # Git ignored files
+```
 
-<h2>🏠 Home Page</h2>
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/a776f05d-9c96-4417-8a44-2c09c49ad53d">
-</p>
+---
 
-<h2>📊 Classification</h2>
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/7bfe0ed7-7a98-415a-aff4-cddd32442c20">
-</p>
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/c1b335b3-d775-4e14-841a-68a5ec803735">
-</p>
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/d50bf52a-a745-4a63-9264-4290cdff28ca">
-</p>
+## 📊 Features Overview
 
+### 🏠 Home Page
 
-<h2>📧 Contact</h2>
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/9477484a-99e8-4c74-97e3-a7cfd818c990">
-</p>
+- Displays project information and links to other sections.
+
+### 📊 Classification
+
+- Upload or capture MRI images for classification.
+- View detailed results including class category, accuracy, and description.
+
+### 📧 Contact
+
+- Provides ways to connect with the developer via email or social media.
+
+---
 
 ## 🙌 Contributing
 
-Contributions are welcome! If you find a bug, or want to add a feature, feel free to open an issue or a pull request.
+We welcome contributions! Follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your changes.
+3. Submit a pull request with a clear description.
+
+Refer to the [CONTRIBUTING.md](./CONTRIBUTING.md) file for more details.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+
+---
+
+## 🛠️ Troubleshooting
+
+If you encounter issues:
+
+- Ensure all dependencies are installed.
+- Check your Node.js and npm versions.
+- Review the browser console for errors.
+
+---
+
+## 📧 Contact
+
+For questions or feedback, reach out to:
+
+- **Email**: fulalotio@gmail.com
+- **GitHub**: [lalosianturi21](https://github.com/lalosianturi21)
+- **LinkedIn**: [Tio Fulalo Simatupang](https://www.linkedin.com/in/tio-fulalo-simatupang-5b9547210/)
+
+---
+
+## 🎉 Acknowledgments
+
+Special thanks to contributors and the open-source community for their support!
